@@ -5,8 +5,8 @@ import Header from "./components/header"
 export default function Contact() {
   return (
     <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
       <Header headerText="Contact" />
+      <Link to="/">Home</Link>
       <p>Send us a message!</p>
     </div>
   )
